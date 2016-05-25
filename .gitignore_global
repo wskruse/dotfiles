@@ -1,0 +1,15 @@
+*~
+.DS_Store
+.classpath
+.project
+.gradle
+.settings
+build
+.gradletasknamecache
+bower_components
+.env
+node_modules
+npm-debug.log
+.idea
+.vagrant
+*.iml

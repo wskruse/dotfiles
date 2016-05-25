@@ -14,4 +14,4 @@ Thumbs.db
 .Trashes
 
 # re-add the bin folder
-!bin
+!bin/
