@@ -1,0 +1,47 @@
+"gw-bb-login":
+  title: "gw-bb-login"
+  paths: [
+    "/Users/wskruse/projects/gw-bb-login"
+  ]
+"gw-bb-css":
+  title: "gw-bb-css"
+  paths: [
+    "/Users/wskruse/projects/gw-bb-css"
+  ]
+mwdcc:
+  title: "mwdcc"
+  paths: [
+    "/Users/wskruse/projects/mwdcc"
+  ]
+testgame:
+  title: "testgame"
+  paths: [
+    "/Users/wskruse/projects/testgame"
+  ]
+bbmd:
+  title: "bbmd"
+  paths: [
+    "/Users/wskruse/projects/bbmd"
+  ]
+"cs6441-team7":
+  title: "cs6441-team7"
+  paths: [
+    "/Users/wskruse/projects/cs6441-team7"
+  ]
+"flickr-set-slideshow":
+  title: "flickr-set-slideshow"
+  paths: [
+    "/Users/wskruse/projects/flickr-set-slideshow"
+    "/Users/wskruse/vagrant/wordpress/wordpress"
+  ]
+outloud:
+  title: "outloud"
+  paths: [
+    "/Users/wskruse/projects/outloud"
+  ]
+costingprototype:
+  title: "Costing Prototype"
+  paths: [
+    "/Users/wskruse/Downloads/CostingUX_Bootstrap_12_14_15"
+    "/Users/wskruse/projects/costingux"
+  ]

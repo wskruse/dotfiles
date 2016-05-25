@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Make vim the default editor.
-export EDITOR='vim';
+export EDITOR='atom';
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
@@ -28,3 +28,9 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+export VAGRANT_DEFAULT_PROVIDER=virtualbox
+
+export ANDROID_HOME='~/android-sdk'
+export GRADLE_HOME='/usr/local/opt/gradle/libexec'
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
