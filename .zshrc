@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 source .path
 source .exports
 source .aliases
-source .functions
+# source .functions
 
 
 # You may need to manually set your language environment
