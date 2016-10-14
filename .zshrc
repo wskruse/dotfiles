@@ -49,11 +49,13 @@ plugins=(git brew osx vagrant npm mvn jsontools gradle bower brew-cask atom comp
 
 source $ZSH/oh-my-zsh.sh
 
-source .path
-source .exports
-source .aliases
+source $HOME/.path
+source $HOME/.exports
+source $HOME/.aliases
 # source .functions
-
+# configure nvm
+export NVM_DIR="$HOME/.nvm"
+  . "$(brew --prefix nvm)/nvm.sh"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
