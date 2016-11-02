@@ -246,3 +246,15 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+# a function to update a whole bunch of things
+function update() {
+	sudo softwareupdate -i -a;
+	brew update;
+	brew upgrade;
+	brew cleanup;
+	npm install npm -g;
+	npm update -g;
+	apm update --no-confirm;
+	# let's see if we can also update dotfiles at the same time
+	source $DOTFILES_PATH/bootstrap.sh;
+}

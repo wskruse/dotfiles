@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wk"
+export ZSH_THEME="wk"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -39,7 +39,7 @@ ZSH_THEME="wk"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/.oh-my-zsh-custom
+ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -52,10 +52,10 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.path
 source $HOME/.exports
 source $HOME/.aliases
-# source .functions
+source $HOME/.functions
 # configure nvm
-export NVM_DIR="$HOME/.nvm"
-  . "$(brew --prefix nvm)/nvm.sh"
+
+. "$(brew --prefix nvm)/nvm.sh"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
