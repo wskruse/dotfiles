@@ -1,1 +1,0 @@
-{"hostList":[{"alias":"","hostname":"hwillkruse.com","directory":"/var/www/html/wp-content/themes/twentyfifteen-child","username":"wskruse","port":"22","localFiles":[],"useAgent":true,"usePrivateKey":false,"usePassword":false,"lastOpenDirectory":"/var/www/html/wp-content/themes","deserializer":"SftpHost"}],"deserializer":"InterProcessData"}
