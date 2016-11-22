@@ -256,5 +256,5 @@ function update() {
 	npm update -g;
 	apm update --no-confirm;
 	# let's see if we can also update dotfiles at the same time
-	source $DOTFILES_PATH/bootstrap.sh;
+	source $DOTFILES_PATH/bootstrap.sh -f;
 }
