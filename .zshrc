@@ -53,9 +53,6 @@ source $HOME/.path
 source $HOME/.exports
 source $HOME/.aliases
 source $HOME/.functions
-# configure nvm
-
-. "$(brew --prefix nvm)/nvm.sh"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
