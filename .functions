@@ -248,13 +248,18 @@ function tre() {
 }
 # a function to update a whole bunch of things
 function update() {
-	sudo softwareupdate -i -a;
-	brew update;
-	brew upgrade;
-	brew cleanup;
-	npm install npm -g;
-	npm update -g;
-	apm update --no-confirm;
-	# let's see if we can also update dotfiles at the same time
-	source $DOTFILES_PATH/bootstrap.sh -f;
+    # update system software
+    sudo softwareupdate -i -a;
+    # update brew installed libs
+    brew update;
+    brew upgrade;
+    brew cleanup;
+    # update composer, then update global packages
+    composer selfupdate;
+    composer global update;
+    # check if yarn is installed, install if not, then update it and globals
+    yarn global upgrade;
+    # let's see if we can also update dotfiles at the same time
+    source $DOTFILES_PATH/bootstrap.sh -f;
+    cd ~;
 }

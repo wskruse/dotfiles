@@ -37,3 +37,5 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 
 export DOTFILES_PATH=$HOME/projects/dotfiles
 
+export TODOTXT_DEFAULT_ACTION=ls
+export TODO_ACTIONS_DIR=$HOME'/Google Drive/todo/actions'
