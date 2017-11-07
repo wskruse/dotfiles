@@ -246,6 +246,12 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# a function to call vagrant commands globally against the homestead box
+function homestead() {
+    ( cd ~/homestead && vagrant $* )
+}
+
 # a function to update a whole bunch of things
 function update() {
     # update system software
