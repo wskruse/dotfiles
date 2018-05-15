@@ -55,7 +55,7 @@ source $HOME/.aliases
 source $HOME/.functions
 
 # Source completions in the .completions dir
-for file in "$(find .completions -maxdepth 1 -name '*-completions' -print -quit)"; do source $file; done
+# for file in "$(find .completions -maxdepth 1 -name '*-completions' -print -quit)"; do source $file; done
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
