@@ -33,7 +33,7 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 export ANDROID_HOME='~/android-sdk'
 export GRADLE_HOME='/usr/local/opt/gradle/libexec'
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export DOTFILES_PATH=$HOME/projects/dotfiles
 
