@@ -45,7 +45,7 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx vagrant npm mvn jsontools gradle bower brew-cask atom composer)
+plugins=(git brew osx vagrant npm node npx laravel5 iterm2 github docker kubectl jsontools brew-cask composer terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -53,6 +53,9 @@ source $HOME/.path
 source $HOME/.exports
 source $HOME/.aliases
 source $HOME/.functions
+
+# Source completions in the .completions dir
+for file in "$(find .completions -maxdepth 1 -name '*-completions' -print -quit)"; do source $file; done
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
