@@ -1,1 +1,1 @@
-export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH
+export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$HOME/.config/yarn/global/node_modules/.bin:/opt/flutter/bin:$PATH
