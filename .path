@@ -1,1 +1,8 @@
-export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$HOME/.config/yarn/global/node_modules/.bin:/opt/flutter/bin:$PATH
+# add flutter to the PATH
+export PATH=/opt/flutter/bin:$PATH
+# add yarn scripts to the PATH
+export PATH=$HOME/.config/yarn/global/node_modules/.bin:$PATH
+# add pear scripts
+export PATH=/usr/local/opt/php/bin:$PATH
+# and now the other custom paths
+export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
