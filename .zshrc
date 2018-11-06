@@ -41,12 +41,6 @@ export ZSH_THEME="wk"
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx vagrant npm node npx laravel5 iterm2 github docker kubectl jsontools brew-cask composer terraform)
-
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.path
